@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshavardhan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Queries.css">
+    <link rel="icon" type="image/x-icon" href="site icon.png">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Harshavardhan Reddy Gopu</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="vam">Harshavardhan Reddy Gopu</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>    
+                <span></span>    
+                <span></span>    
+            </div>
+            <div class="menu-links">
+                <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="profile.JPG" alt="GHR">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, myself</p>
+            <h1 class="title">Harshavardhan</h1>
+            <p class="section__text__p2">Computer Science Student</p>
+            <div class="btn_contaier">
+                <button class="btn btn-color-2" onclick="window.open('Harshavardhan_Resume.pdf')">
+                View Resume</button>
+                <button class="btn btn-color-1" onclick=" location.href='./#Contact'">
+                    Contact</button>
+            </div>
+            <div id="socials-container">
+                <img src="linkedin.png" alt="linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/harshavardhan-reddy-gopu/'">
+
+                <img src="github.png" alt="Github profile" class="icon" onclick="location.href='https://github.com/harshavardhan0517'">
+            </div>
+        </div>
+    </section>
+    <section id="About">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./experience.png" alt="exp icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>President of the Entrepreneurship Club at ICFAI <br>Forntend Web Developer Intern at INCOIS</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./education.png" alt="exp icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Tech - Computer Science<br>ICFAI University: 2022-Present</p>
+                    </div>
+                    </div>
+                    <div class="text-container">
+                        <p class="alii">Software development graduate with hands-on experience in building backend-driven and full-stack web applications using Java, Spring Boot, Python, and SQL. Experienced in designing RESTful APIs, integrating frontend interfaces, and working with relational databases to build reliable and maintainable systems. Seeking an entry-level software development role focused on building scalable and robust applications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <img src="./arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#Experience'">
+    <section id="Experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="Experience-sub-title">Industry Knowledge</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>React</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>CSS / JS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="Experience-sub-title">Interpersonal Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>Team Leadership</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>Problem Solving</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>Teamwork & Collaboration</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>Analytical Thinking</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>Communication Skills</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="checkmark png" class="icon">
+                            <div>
+                                <h3>GlobeTrotter</h3>
+                            </div>
+                        </article>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <img src="./arrow.png" alt="arrow icon" class="icon arroww" onclick="location.href='./#Projects'">
+    <section id="Projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+
+        <div class="Experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                    </div>
+                    <h3 class="Experience-sub-title project-title">Hotel & Property Management System</h3>
+                    <div class="btnn_container">
+                        <button class="btnn btn-color-2 project-btn" onclick="location.href='https://github.com/harshavardhan0517/Hotel-Property-Management-System.git'">Github</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                    </div>
+                    <h3 class="Experience-sub-title project-title">Glaucoma Detection System</h3>
+                    <div class="btn_container">
+                        <button class="btnn btn-color-2 project-btn" onclick="location.href='https://github.com/harshavardhan0517/Glaucoma-Detection.git'">Github</button>
+                    </div>
+                </div>        
+                <div class="details-container color-container">
+                    <div class="article-container">
+                    </div>
+                    <h2 class="Experience-sub-title project-title">Employee Data Record System</h2><br><br>
+                    <div class="btn_container">
+                        <button class="btnn btn-color-2 project-btn" onclick="location.href='https://github.com/harshavardhan0517/Employee-Data-Record-System.git'" >Github</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                    </div>
+                    <h2 class="Experience-sub-title project-title">Phone Number Metadata Explorer</h2><br><br>
+                    <div class="btn_container">
+                        <button class="btnn btn-color-2 project-btn" onclick="location.href='https://github.com/harshavardhan0517/phone-number-tracker.git'" >Github</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                    </div>
+                    <h2 class="Experience-sub-title project-title">Arrival-Based Route Planner</h2><br><br>
+                    <div class="btn_container">
+                        <button class="btnn btn-color-2 project-btn" onclick="location.href='https://github.com/harshavardhan0517/Smart-commute-planner.git'" >Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+    <img src="./arrow.png" alt="arrow icon" class="icon arrowww" onclick="location.href='./#Contact'">
+    <section id="Contact">
+        <p class="section__text__p1"> Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./email.png" alt="email png" class="icon Contact-icon email-icon">
+                <p><a href="mailto:akellakrishnvamshi@gmail.com" target="_blank">harsha.gopu45@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./linkedin.png" alt="linkedin png" class="icon Contact-icon">
+                <p><a href="https://www.linkedin.com/in/harshavardhan-reddy-gopu/" target="_blank">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Experience">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
