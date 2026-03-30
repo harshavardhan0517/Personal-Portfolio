@@ -347,6 +347,16 @@ article .icon{
     left: 78rem;
     bottom: -110.5rem;
 }
+.about-containers {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.details-container {
+  flex: 1;
+  min-width: 300px;
+}
 
 /* Contact */
 
